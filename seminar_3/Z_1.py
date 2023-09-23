@@ -4,8 +4,14 @@
 
 
 myList = []
+
 for i in range(5):
     myList.append(input('введите число: '))
+
+    # другой вариант:
+# size = int(input("Введите размер списка: "))
+# for i in range(size):
+#     myList.append(input('введите число: '))
 
 mySet = set(myList)
 print(*mySet)
